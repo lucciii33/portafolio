@@ -6,7 +6,7 @@ export const Home = () => (
 	<div className=" " style={{backgroundColor: "#4825C7"}}>
 		<div className="text-center">
 
-		<h1 className="title mb-2"><strong>Angelo Maiele</strong></h1>
+		<h1 className="title "><strong>Angelo Maiele</strong></h1>
 		<h2 className="title">Full Stack Developer</h2>
 		</div>
 		<div className="objd">
