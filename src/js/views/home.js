@@ -1,15 +1,16 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
+import Spline from '@splinetool/react-spline';
 import "../../styles/home.css";
 
 export const Home = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
+	<div className=" " style={{backgroundColor: "#4825C7"}}>
+		<div className="text-center">
+
+		<h1 className="title mb-2"><strong>Angelo Maiele</strong></h1>
+		<h2 className="title">Full Stack Developer</h2>
+		</div>
+		<div className="objd">
+	  <Spline scene="https://draft.spline.design/uvJOtbhWwMjTaT5S/scene.spline" />
+	</div>
 	</div>
 );
