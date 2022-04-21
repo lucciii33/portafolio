@@ -122,3 +122,9 @@ opacity: 1;
     color: #fff;
     font-weight: 300;
 }
+.input{
+    margin-bottom: 350px;
+    width: 200px;
+    height: auto;
+    background-color: beige;
+}
