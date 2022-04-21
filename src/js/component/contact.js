@@ -6,9 +6,9 @@ export const Contact = () => {
 	return (
 		<div className=""style={{backgroundColor: "#4825C7"}}>
 			
-			<div>
+			{/* <div>
 	 	 <Spline scene="https://draft.spline.design/12hNbkC37mRbvz2v/scene.spline" />
-			</div>
+			</div> */}
 			<div className="text-center">
 			<h2 className="title">Contact me</h2>
 			<input placeholder="email" className="input rounded"></input>
