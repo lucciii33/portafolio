@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import Tilt from 'react-vanilla-tilt'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { IoCodeWorking, IoLogoHtml5,IoLogoJavascript, IoLogoReact, IoLogoCss3, IoLogoPython, AiOutlineConsoleSql} from "react-icons/io5";
+import { IoCodeWorking, IoLogoHtml5,IoLogoJavascript, IoLogoReact, IoLogoCss3, IoLogoPython, } from "react-icons/io5";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 export const Tools = () => {
 	return (
 		<div className="" style={{backgroundColor: "#4825C7"}}>
@@ -29,8 +30,7 @@ export const Tools = () => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoLogoCss3 />}
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">CSS</h3>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
