@@ -11,10 +11,10 @@ export const Tools = () => {
 			<VerticalTimeline>
 			<VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'rgba(225,225,225,0.1)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="2020 - present"
+    iconStyle={{ background: '	rgb(147,112,219)', color: '#fff' }}
     icon={<IoLogoHtml5/>}
   >
     <h3 className="vertical-timeline-element-title">Html</h3>
@@ -26,8 +26,8 @@ export const Tools = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgba(225,225,225,0.1)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="2020 - present"
+    iconStyle={{ background: '	rgb(147,112,219)', color: '#fff' }}
     icon={<IoLogoCss3 />}
   >
     <h3 className="vertical-timeline-element-title">CSS</h3>
@@ -37,10 +37,10 @@ export const Tools = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'rgba(225,225,225,0.1)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="2020 - present"
+    iconStyle={{ background: '	rgb(147,112,219)', color: '#fff' }}
     icon={<IoLogoJavascript />}
   >
     <h3 className="vertical-timeline-element-title">Javascript</h3>
@@ -50,10 +50,10 @@ export const Tools = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'rgba(225,225,225,0.1)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="2020 - present"
+    iconStyle={{ background: '	rgb(147,112,219)', color: '#fff' }}
     icon={<IoLogoReact />}
   >
     <h3 className="vertical-timeline-element-title">React.Js</h3>
@@ -63,10 +63,10 @@ export const Tools = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'rgba(225,225,225,0.1)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="2020 - present"
+    iconStyle={{ background: '	rgb(147,112,219)', color: '#fff' }}
     icon={<IoLogoPython />}
   >
     <h3 className="vertical-timeline-element-title">Python</h3>
@@ -77,10 +77,10 @@ export const Tools = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'rgba(225,225,225,0.1)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    date="2020 - present"
+    iconStyle={{ background: '	rgb(147,112,219)', color: '#fff' }}
     icon={<AiOutlineConsoleSql />}
   >
     <h3 className="vertical-timeline-element-title">SQL</h3>
