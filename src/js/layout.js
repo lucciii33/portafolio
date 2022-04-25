@@ -9,6 +9,7 @@ import injectContext from "./store/appContext";
 import { Cards } from "./component/Cards";
 import { AboutMe } from "./component/aboutme";
 import { Contact } from "./component/contact";
+import { Tools } from "./component/tools";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -29,6 +30,7 @@ const Layout = () => {
 							<Home />
 							<AboutMe/>
 							<Cards/>
+							<Tools/>
 							<Contact/>
 						</Route>
 						<Route exact path="/demo">
