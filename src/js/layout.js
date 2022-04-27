@@ -10,6 +10,7 @@ import { Cards } from "./component/Cards";
 import { AboutMe } from "./component/aboutme";
 import { Contact } from "./component/contact";
 import { Tools } from "./component/tools";
+import { Sidebar } from "./component/sidebar";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";

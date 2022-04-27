@@ -1,6 +1,7 @@
 import React from "react";
 import Spline from '@splinetool/react-spline';
 import "../../styles/home.css";
+import { Sidebar } from "../component/sidebar";
 
 export const Home = () => (
 	<div className=" " style={{backgroundColor: "#4825C7"}}>
@@ -12,5 +13,6 @@ export const Home = () => (
 		<div className="objd">
 	  <Spline scene="https://draft.spline.design/uvJOtbhWwMjTaT5S/scene.spline" />
 	</div>
+	<Sidebar></Sidebar>
 	</div>
 );
