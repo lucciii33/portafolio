@@ -5,7 +5,7 @@ export const Cards = () => {
 	return (
 		<div className="" style={{backgroundColor: "#4825C7"}}>
 			<div className="text-center">
-			 <h2 className='title'>Projects</h2>
+			 <h2 className='title'>Projects1</h2>
 
 			</div>
 		<div className="d-flex flex-wrap con d-flex justify-content-center">
