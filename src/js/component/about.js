@@ -4,9 +4,9 @@ import Tilt from 'react-vanilla-tilt'
 export const AboutMe = () => {
 	return (
 		<div className=""style={{backgroundColor: "#4825C7"}}>
-			<div >
-			<div className="text-center p-0">
-			 <h2 className='title'>About me</h2>
+			<div id="about" >
+			<div className="text-center p-0" id="aboutme">
+			 <h2  className='title'>About me</h2>
 
 			</div>
 			</div>

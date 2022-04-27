@@ -7,7 +7,7 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 import { Cards } from "./component/Cards";
-import { AboutMe } from "./component/aboutme";
+import { AboutMe } from "./component/about";
 import { Contact } from "./component/contact";
 import { Tools } from "./component/tools";
 import { Sidebar } from "./component/sidebar";

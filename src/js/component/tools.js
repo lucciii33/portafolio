@@ -7,7 +7,7 @@ import { IoCodeWorking, IoLogoHtml5,IoLogoJavascript, IoLogoReact, IoLogoCss3, I
 import { AiOutlineConsoleSql } from "react-icons/ai";
 export const Tools = () => {
 	return (
-		<div className="" style={{backgroundColor: "#4825C7"}}>
+		<div className="" style={{backgroundColor: "#4825C7"}} id="tools">
 			<VerticalTimeline>
 			<VerticalTimelineElement
     className="vertical-timeline-element--work"
