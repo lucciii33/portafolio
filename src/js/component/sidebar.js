@@ -6,7 +6,7 @@ import { RiCodeSSlashFill } from "react-icons/ri"
 
 export const Sidebar = () => {
 	return (
-		<nav className="sidebar" style={{backgroundColor: "#4825C7"}}>
+		<nav className="" style={{backgroundColor: "#4825C7"}}>
 			<div className="sidebar ">
 
 			<div className="containerIcon position-relative">
@@ -28,9 +28,9 @@ export const Sidebar = () => {
 			</div>
 
 			
-			<div className="containerIcon">
-			<Link to="/tools" className="text-decoration-none">
-					<div className="icon"><MdSettingsAccessibility size={30}/></div>
+            <div className="containerIcon position-relative">
+			<Link to="/" className="text-decoration-none">
+			<div className="icon position-absolute bottom-0 start-50 translate-middle-x"><ImHome size={30}/></div>
 			</Link>
 			</div>
 			</div>
