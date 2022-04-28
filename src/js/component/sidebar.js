@@ -37,7 +37,7 @@ export const Sidebar = () => {
 			
             <div className="containerIcon ">
 			{/* <Link to="/" className="text-decoration-none"> */}
-			<div className="icon" href='#contact'><MdAttachEmail size={30}/></div>
+			<a className="icon" href='#contact'><MdAttachEmail size={30}/></a>
 			{/* </Link> */}
 			</div>
 			</div>

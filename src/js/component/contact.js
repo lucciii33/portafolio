@@ -5,24 +5,25 @@ import Spline from '@splinetool/react-spline';
 export const Contact = () => {
 	return (
 		<div className=""style={{backgroundColor: "#4825C7"}}>
-			
-			 <div>
-			 <Spline scene="https://draft.spline.design/H28o5bcqPHyD2425/scene.spline" />
-			</div> 
-			<div className="text-center">
-			<h2 className="title" id="contact">Contact me</h2>
+			<div id="contact" >
+			<div className="text-center p-0" id="aboutme">
+			 <h2  className='title'>Contact me</h2>
+			</div>
+			</div>
+
 			<div className="d-flex justify-content-center" style={{backgroundColor: "#4825C7"}}>
-			<div className="conta2">
-			<Tilt style={{backgroundColor: "rgba(225,225,225,0.1)",padding: "0px", margin: "35px",borderRadius: '15px'}}>
-			<div className="card2 me-1 mb-4 mt-4 ms-1">
-			<input placeholder="email" className="input rounded"></input>
-			<input placeholder="name" className="input rounded"></input>
-			<textarea placeholder="write me!"></textarea>
+			<div className="conta3" >
+				<Tilt style={{backgroundColor: "rgba(225,225,225,0.1)", borderRadius: '15px' }}>
+				<div className="card3 d-flex flex-column ">
+				<div className="content text-center d-grid mx-auto">
+				<input type="text" placeholder="Your name"></input>
+				<input type="Password" placeholder="Password"></input>
+				<textarea placeholder="Tell me about your dream website "></textarea>
+				</div>
+				</div>
+		 </Tilt>
 			</div>
-			</Tilt>
-			</div>
-			</div>
-			</div>
+		</div>
 		</div>
 		
 	);
