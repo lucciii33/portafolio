@@ -5,6 +5,9 @@ import Spline from '@splinetool/react-spline';
 export const Contact = () => {
 	return (
 		<div className=""style={{backgroundColor: "#4825C7"}}>
+			<div>
+             <Spline scene="https://draft.spline.design/H28o5bcqPHyD2425/scene.spline" />
+            </div> 
 			<div id="contact" >
 			<div className="text-center p-0" id="aboutme">
 			 <h2  className='title'>Contact me</h2>
