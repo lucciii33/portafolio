@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { MdSettingsAccessibility, MdAttachEmail } from "react-icons/md";
 import { ImHome } from "react-icons/im";
 import { RiCodeSSlashFill, RiComputerFill } from "react-icons/ri"
 
 export const Sidebar = () => {
+	const [colorButton, setColorButton] = useState("iconState");
 	return (
 		<nav className="" style={{backgroundColor: "#4825C7"}}>
 			<div className="sidebar ">
 
 			<div className="containerIcon ">
 			{/* <Link to="/" className="text-decoration-none"> */}
-			<a className="icon" href='#home'><ImHome size={30}/></a>
+			<a className={colorButton == "iconState"? "icon":"iconState" } onClick={()=>{
+				setColorButton("icon");
+			}} href='#home'><ImHome size={30}/></a>
 			{/* </Link> */}
 			</div>
 			
