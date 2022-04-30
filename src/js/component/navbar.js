@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar" style={{backgroundColor: "#4825C7"}}>
+		<nav className="navbar m-3" style={{backgroundColor: "#4825C7"}}>
 			{/* <Link to="/">
 				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
 			</Link>
