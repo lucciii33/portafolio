@@ -16,15 +16,15 @@ export const Sidebar = () => {
 
 			<div className="containerIcon ">
 			{/* <Link to="/" className="text-decoration-none"> */}
-			<a className={colorButton=="iconState" && colorButton1=="icon" || colorButton2=="icon"?"iconState":"icon" } onClick={()=>{
-				setColorButton("icon"); setColorButton2("icon"); setColorButton3("icon")
+			<a className={colorButton=="iconState"?"icon": colorButton1=="iconState"?"iconState":"icon" } onClick={()=>{
+				setColorButton("icon"); 
 			}} href='#home'><ImHome size={30}/></a>
 			{/* </Link> */}
 			</div>
 			
 			<div className="containerIcon ">
 			{/* <Link to="/aboutme" className="text-decoration-none" > */}
-			<a className={colorButton1 == "iconState"? "icon":"iconState" } onClick={()=>{
+			<a className={colorButton1 == "iconState"? "icon": colorButton2=="iconState"?"iconState":"icon"  } onClick={()=>{
 				setColorButton1("icon");
 			}} href='#about'><MdSettingsAccessibility size={30}/></a>
 			{/* </Link> */}
@@ -32,7 +32,7 @@ export const Sidebar = () => {
 
 			<div className="containerIcon  ">
 			{/* <Link to="/Cards" className=" text-decoration-none"> */}
-			<a className={colorButton2 == "iconState"? "icon":"iconState" } onClick={()=>{
+			<a className={colorButton2 == "iconState"? "icon": colorButton3=="iconState"?"iconState":"icon" } onClick={()=>{
 				setColorButton2("icon");
 			}} href='#cards'><RiComputerFill size={30}/></a>
 			{/* </Link> */}
@@ -40,7 +40,7 @@ export const Sidebar = () => {
 
 			<div className="containerIcon  ">
 			{/* <Link to="/Cards" className=" text-decoration-none"> */}
-			<a className={colorButton3 == "iconState"? "icon":"iconState" } onClick={()=>{
+			<a className={colorButton3 == "iconState"? "icon": colorButton4=="iconState"?"iconState":"icon"  } onClick={()=>{
 				setColorButton3("icon");
 			}} href='#tools'><RiCodeSSlashFill size={30}/></a>
 			{/* </Link> */}
@@ -50,7 +50,7 @@ export const Sidebar = () => {
 			
             <div className="containerIcon ">
 			{/* <Link to="/" className="text-decoration-none"> */}
-			<a className={colorButton4 == "iconState"? "icon":"iconState" } onClick={()=>{
+			<a className={colorButton4 == "iconState"? "icon" :"iconState" } onClick={()=>{
 				setColorButton4("icon");
 			}} href='#contact'><MdAttachEmail size={30}/></a>
 			{/* </Link> */}
