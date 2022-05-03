@@ -6,8 +6,8 @@ export const Contact = () => {
 	return (
 		<div className=""style={{backgroundColor: "#4825C7"}}>
 			<div>
-             {/* <Spline scene="https://draft.spline.design/H28o5bcqPHyD2425/scene.spline" /> */}
-			 <a   href="https://www.linkedin.com/in/angelo-maiele-68626333/details/experience/"> <Spline scene="https://prod.spline.design/6pG6qsWb5EKfy55m/scene.spline" /> </a>
+			 <a   href="https://www.linkedin.com/in/angelo-maiele-68626333/details/experience/"> 
+			 <Spline scene="https://prod.spline.design/EZl1sN5G3qRCksA2/scene.spline" /></a>
 			
             </div> 
 			<div id="contact" >
