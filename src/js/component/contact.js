@@ -5,10 +5,10 @@ import Spline from '@splinetool/react-spline';
 export const Contact = () => {
 	return (
 		<div className=""style={{backgroundColor: "#4825C7"}}>
-			<div  href="https://www.linkedin.com/in/angelo-maiele-68626333/details/experience/">
+			<div>
              {/* <Spline scene="https://draft.spline.design/H28o5bcqPHyD2425/scene.spline" /> */}
-			 
-			 <Spline scene="https://prod.spline.design/6pG6qsWb5EKfy55m/scene.spline" />
+			 <a   href="https://www.linkedin.com/in/angelo-maiele-68626333/details/experience/"> <Spline scene="https://prod.spline.design/6pG6qsWb5EKfy55m/scene.spline" /> </a>
+			
             </div> 
 			<div id="contact" >
 			<div className="text-center p-0" id="aboutme">
