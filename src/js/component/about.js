@@ -16,7 +16,7 @@ export const AboutMe = () => {
 				<div className="card2">
 				<div className="content text-center">
 				<h2>About me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>I am a very creative, passionate, and responsible full-stack developer. I have been working for one year as a freelancer and coding has really changed my life. I combine my technological skills with my hospitality knowledge, and my educational background in management allows me to be very organized, effective with my time, and multitask. The languages that I handle are Html, CSS, JavaScript, ReactJs, python, SQL, MongoDB and Node.js. I also feel very comfortable working with bootstrap, photoshop, Ant Design, Api, and more. I have a really good eyes for design coming from and artistic family.</p>
 				</div>
 				</div>
 		 </Tilt>

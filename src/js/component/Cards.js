@@ -15,7 +15,7 @@ export const Cards = () => {
 				<div className="content text-center">
 					<h2>01</h2>
 					<h3>The drink link</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					<p>A place where you can find any type of cocktails, filter for different options, create your own cocktails, and more, click here to enjoy the demo</p>
 					<a className="btn btn-outline-light">see more</a>
 				</div>
 			</div>
@@ -27,7 +27,7 @@ export const Cards = () => {
 				<div className="content text-center">
 					<h2>02</h2>
 					<h3>Formula 1 shop</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					<p>An e-commerce of formula one clothing, an incredible project where we have made our client very happy, click here and check it out</p>
 					<a className="btn btn-outline-light">see more</a>
 				</div>
 			</div>
@@ -38,8 +38,8 @@ export const Cards = () => {
 			<div className="card">
 				<div className="content text-center">
 					<h2>03</h2>
-					<h3>News blog</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					<h3>PetCare</h3>
+					<p>A web page where anyone who works with our 4-legged friends can create their profile showing what they do and being able to offer their clients different options, from talking about an emergency to making an appointment to take a bath</p>
 					<a className="btn btn-outline-light">see more</a>
 				</div>
 			</div>
