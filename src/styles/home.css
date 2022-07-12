@@ -11,10 +11,10 @@ body{
     text-shadow: 0px 4px 3px rgba(253, 253, 211, 0.4)
     }
 
-.objd{
+/* .objd{
 width: 700px;
 height: auto;
-}
+} */
 @media(max-width:660px){
     .objd{
         display:none;}
@@ -84,7 +84,7 @@ opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
 }
@@ -115,7 +115,7 @@ opacity: 1;
 }
 @media(max-width:660px){
     .conta2 .card2 {
-        weight:200px;
+        weight:190px;
         padding:0px;
         margin:10px;
     height:auto;}
@@ -147,7 +147,7 @@ opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
 }
@@ -180,6 +180,15 @@ transform: translateY(0px);
 opacity: 1;
 }
 
+
+@media(max-width:650px){
+ .conta3 .card3{
+    width:200px;
+ }
+ .input-responsible{
+    width:150px
+ }
+}
 
 input{
     width: 300px;

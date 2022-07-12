@@ -13,8 +13,8 @@ export const Contact = () => {
 		console.log(contact);
 	};
 	return (
-		<div className="" style={{ backgroundColor: "#4825C7" }}>
-			<div>
+		<div className="" style={{ backgroundColor: "#4825C7", width:"100%"}}>
+			<div className="objd">
 				<a href="https://www.linkedin.com/in/angelo-maiele-68626333/details/experience/">
 					<Spline scene="https://prod.spline.design/EZl1sN5G3qRCksA2/scene.spline" /></a>
 
@@ -25,29 +25,32 @@ export const Contact = () => {
 				</div>
 			</div>
 
-			<div className="d-flex justify-content-center" style={{ backgroundColor: "#4825C7" }}>
+			<div className="box-resp d-flex justify-content-center " style={{ backgroundColor: "#4825C7" }}>
 				<div className="conta3" >
 					<Tilt style={{ backgroundColor: "rgba(225,225,225,0.1)", borderRadius: '15px' }}>
 						<div className="card3 d-flex flex-column ">
 							<div className="content text-center d-grid mx-auto">
-								<input type="text" 
+								<input className="input-responsible"
+								type="text" 
 								placeholder="Your name" 
 								name="name"
 								value={contact.name}
 								onChange={handleChange}></input>
-								<input type="text" 
+								<input className="input-responsible" 
+								 type="text" 
 								placeholder="Email"
 								name="email"
 								value={contact.email}
 								onChange={handleChange}></input>
-								<textarea placeholder="Tell me about your dream website"
+								<textarea className="input-responsible"
+								placeholder="Tell me about your dream website"
 								name="message"
 								value={contact.message}
 								onChange={handleChange}></textarea>
-								<button onClick={()=>{
+							</div>
+								<button className="btn btn-outline-light" onClick={()=>{
 									actions.saveMessage(contact.email,contact.name,contact.message);
 								}}>send me to back end</button>
-							</div>
 						</div>
 					</Tilt>
 				</div>
