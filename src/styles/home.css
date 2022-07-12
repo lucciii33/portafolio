@@ -84,10 +84,11 @@ opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
 }
+
 .conta2 .card2 {
     position: relative;
     width: 95%;
@@ -111,6 +112,16 @@ opacity: 1;
     transform: translateY(100px);
     opacity: 0;
     transition: 0.5s;
+}
+@media(max-width:660px){
+    .conta2 .card2 {
+        weight:200px;
+        padding:0px;
+        margin:10px;
+    height:auto;}
+    .content{
+        font-size:15px;
+    }
 }
 .conta2 .card2:hover .content{
 transform: translateY(0px);
