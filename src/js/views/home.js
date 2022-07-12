@@ -12,7 +12,7 @@ export const Home = () => (
 		</div>
 		<div className="d-flex">
 				<Sidebar></Sidebar>
-			<div className="objd">
+			<div className="objd w-100">
 				<Spline scene="https://draft.spline.design/uvJOtbhWwMjTaT5S/scene.spline" />
 			</div>
 		</div>

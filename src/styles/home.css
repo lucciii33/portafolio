@@ -15,6 +15,10 @@ body{
 width: 700px;
 height: auto;
 }
+@media(max-width:660px){
+    .objd{
+        display:none;}
+}
  .con{
     background: #4825C7;
 } 
